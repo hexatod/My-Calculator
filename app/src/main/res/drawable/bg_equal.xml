@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Saat ditekan -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#CF7F00"/> <!-- warna saat ditekan -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FF7F00"/>
+        </shape>
+    </item>
+</selector>
