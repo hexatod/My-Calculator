@@ -1,37 +1,48 @@
-Aplikasi kalkulator ini sedang dikembangkan lebih lanjut sebagai bagian dari studi mandiri dan evaluasi teknis.
-
-Fitur-fitur yang sedang dikerjakan:
-- Perbaikan tampilan UI (warna, layout)
-- Sistem keamanan PIN login
-- Validasi input & penyimpanan data lokal
-
-Perkembangan akan dicatat di commit & pull request berikutnya.
-
-
-
 # My Calculator 📱
 
-A simple Android calculator app built using Kotlin and Android Studio.
+A simple Android calculator app built with Kotlin and Android Studio.  
+This project is actively developed as part of a self-learning journey and technical evaluation for the **Mobile Security Bootcamp** at PT Visionet Data Internasional.
+
+---
 
 ## ✨ Features
 
 - Basic arithmetic operations: Addition (+), Subtraction (−), Multiplication (×), Division (÷)
 - Custom UI with rounded buttons
 - Real-time expression evaluation using [`exp4j`](https://www.objecthunter.net/exp4j/)
-- User-friendly layout optimized for mobile
+- User-friendly interface optimized for mobile screens
+
+---
+
+## 🚧 Features in Progress
+
+- UI enhancements (color, spacing, layout)
+- PIN-based login security system
+- Input validation and safe expression handling
+- Local storage for configuration (SharedPreferences, to be upgraded)
+
+---
 
 ## 📸 Screenshots
+
+### Home Screen
 ![Calculator UI](screenshot/tampilan%20awal.png)
 
+### Calculation Result
+![Calculator Result](screenshot/hasil%20perhitungan.png)
 
-![Calculator UI](screenshot/hasil%20perhitungan.png)
+---
 
 ## 🧰 Tech Stack
 
-- **Language**: Kotlin  
-- **Framework**: Android SDK  
-- **IDE**: Android Studio  
-- **Library**: `exp4j` for expression parsing
+| Stack        | Detail                      |
+|--------------|-----------------------------|
+| Language     | Kotlin                      |
+| Framework    | Android SDK                 |
+| IDE          | Android Studio              |
+| Expression Parser | [`exp4j`](https://www.objecthunter.net/exp4j/) |
+
+---
 
 ## 📦 Installation
 
