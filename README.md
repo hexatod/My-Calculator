@@ -1,6 +1,17 @@
+Aplikasi kalkulator ini sedang dikembangkan lebih lanjut sebagai bagian dari studi mandiri dan evaluasi teknis.
+
+Fitur-fitur yang sedang dikerjakan:
+- Perbaikan tampilan UI (warna, layout)
+- Sistem keamanan PIN login
+- Validasi input & penyimpanan data lokal
+
+Perkembangan akan dicatat di commit & pull request berikutnya.
+
+
+
 # My Calculator 📱
 
-A simple Android calculator app built using Java and Android Studio.
+A simple Android calculator app built using Kotlin and Android Studio.
 
 ## ✨ Features
 
