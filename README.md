@@ -1,7 +1,6 @@
 # My Calculator 📱
 
-A simple Android calculator app built with Kotlin and Android Studio.  
-This project is actively developed as part of a self-learning journey and technical evaluation for the **Mobile Security Bootcamp** at PT Visionet Data Internasional.
+A simple Android calculator app built with Kotlin and Android Studio.
 
 ---
 
@@ -11,19 +10,21 @@ This project is actively developed as part of a self-learning journey and techni
 - Custom UI with rounded buttons
 - Real-time expression evaluation using [`exp4j`](https://www.objecthunter.net/exp4j/)
 - User-friendly interface optimized for mobile screens
+- Login and Register features
+- Local storage with SharedPreferences
 
----
 
-## 🚧 Features in Progress
 
-- UI enhancements (color, spacing, layout)
-- PIN-based login security system
-- Input validation and safe expression handling
-- Local storage for configuration (SharedPreferences, to be upgraded)
 
 ---
 
 ## 📸 Screenshots
+
+### Register
+![Register](screenshot/register.jpeg)
+
+### Login
+![Login](screenshot/login.jpeg)   
 
 ### Home Screen
 ![Calculator UI](screenshot/tampilan%20awal.png)
@@ -49,3 +50,7 @@ This project is actively developed as part of a self-learning journey and techni
 1. Clone this repository:
    ```bash
    git clone https://github.com/hexatod/My-Calculator.git
+   
+## Testcase Documentation
+   ```bash
+- [📄 Test Cases](./QA_Documents/testcase.xlsx)
